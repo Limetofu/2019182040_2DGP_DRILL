@@ -21,5 +21,7 @@ while True:
     character.draw_now(xpos, ypos)
     
     degree += 0.2
+    if (degree > 360):
+        degree = 0
 
     delay(0.1)
