@@ -11,7 +11,7 @@ frame = 0
 yframe = 0
 while True:
     clear_canvas()
-    cygnus.clip_draw(frame * 380, yframe, 380, 490, 400, 300)
+    cygnus.clip_draw(frame * 380, 0, 400, 490, 400, 300, 800, 600)
     update_canvas()
     frame = (frame + 1) % 19
     if (frame == 18 and yframe == 0):
