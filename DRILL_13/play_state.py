@@ -27,9 +27,9 @@ def enter():
     boy = Boy()
     grass = Grass()
     bird = []
-    for i in range(0, 1000 + 1, 100):
+    for i in range(0, 1500 + 1, 150):
         bird.append(Bird(i, 400, 1))
-        
+
     game_world.add_object(grass, 0)
     game_world.add_object(boy, 1)
     for i in bird:
